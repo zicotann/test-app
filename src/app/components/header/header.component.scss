@@ -1,0 +1,148 @@
+@import "../../../styles.scss";
+
+body{
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: $off-white;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 30px; /* Place content 60px from the top */
+  transition: 0.4s;
+  box-shadow: 2px 3px 31px -6px rgba(0, 0, 0, 0.75);
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 15px 15px 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  color: $dark-green;
+  display: block;
+  transition: 0.3s;
+  font-family: $source_sans;
+  font-weight: 600;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: $teal;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+// #main {
+//   transition: margin-left 0.5s;
+//   padding: 20px;
+// }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.hamburger {
+  border-top: 3px solid $dark-green;
+  padding-bottom: 4px;
+  width: 27px;
+  cursor: pointer;
+}
+
+.header-cont {
+  padding: 40px;
+}
+
+.close-container {
+  position: relative;
+  //   margin-left: 180px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.backward {
+  height: 2px;
+  width: 25px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: $dark-green;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all 0.3s ease-in;
+}
+
+.forward {
+  height: 2px;
+  width: 25px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: $dark-green;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all 0.3s ease-in;
+}
+
+label {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-in;
+  opacity: 0;
+}
+.close {
+  margin: 60px 0 0 5px;
+  position: absolute;
+}
+
+.links {
+  padding-left: 40px;
+  margin-top: 30px;
+}
+
+.link-icon {
+  display: flex;
+  align-items: center;
+
+  i {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .fas {
+    font-size: 20px;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.close-btn {
+  justify-content: flex-end;
+  display: flex;
+}

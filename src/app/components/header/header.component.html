@@ -1,3 +1,57 @@
-<p>
-  header works!
-</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 header-cont">
+      <!-- Menu Icon -->
+      <div (click)="openNav()">
+        <div class="hamburger"></div>
+        <div class="hamburger mid"></div>
+        <div class="hamburger bottom"></div>
+      </div>
+
+      <!-- Side Nav -->
+      <div id="mySidenav" class="sidenav">
+        <!-- Close button -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 close-btn">
+              <div class="close-container" (click)="closeNav()">
+                <div class="backward"></div>
+                <div class="forward"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 logo">
+              <i class="fas fa-chevron-circle-right fa-2x"></i>
+            </div>
+            <div class="col-6">
+              <div class="close-container" (click)="closeNav()">
+                <div class="backward"></div>
+                <div class="forward"></div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- Links -->
+        <div class="links">
+          <div class="link-icon">
+            <i class="fas fa-home"></i><a href="#">Home</a>
+          </div>
+          <div class="link-icon">
+            <i class="fas fa-list-ul"></i><a href="#">List</a>
+          </div>
+          <div class="link-icon">
+            <i class="fas fa-chevron-circle-right"></i><a href="#">About</a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
