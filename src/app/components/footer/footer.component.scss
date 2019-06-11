@@ -1,0 +1,30 @@
+@import '../../../styles.scss';
+
+.footer-color-1{
+    background-color: $dark-blue;
+}
+.footer-color-2{
+    background-color: $teal;
+}
+.footer-color-3{
+    background-color: $off-white;
+}
+// .footer-color-4{
+//     background-color: $sky-blue;
+// }
+// .footer-color-5{
+//     background-color: $pastel-peach;
+// }
+// .footer-color-7{
+//     background-color: $off-white-1;
+// }
+// .footer-color-8{
+//     background-color: $off-white-2;
+// }
+// .footer-color-9{
+//     background-color: $granite;
+// }
+
+.footer-cont{
+    justify-content: center; 
+}
