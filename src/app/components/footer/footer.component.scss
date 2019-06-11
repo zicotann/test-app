@@ -1,7 +1,7 @@
 @import '../../../styles.scss';
 
 .footer-color-1{
-    background-color: $dark-blue;
+    background-color: $dark-green;
 }
 .footer-color-2{
     background-color: $teal;
@@ -28,15 +28,15 @@
 .footer-cont{
     justify-content: center; 
     background-color: $off-white;
-    color: $dark-blue;
+    color: $dark-green;
     font-family: $source_sans;
     font-weight: 900;
     font-size: 30px;
-    padding: 60px 0 0 0;
+    padding: 30px 0 0 0;
 }
 
 .footer-bar{
-    background-color: $dark-blue;
+    background-color: $dark-green;
     padding: 11px 0;
     // border-radius: 40px 40px 0 0;
 }
@@ -52,7 +52,7 @@
     font-family: $source_sans;
     font-weight: 400;
     font-size: 16px;
-    color: $dark-blue;
+    color: $dark-green;
 }
 
 .links-cont{
