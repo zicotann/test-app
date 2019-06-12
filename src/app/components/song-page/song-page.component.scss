@@ -62,3 +62,212 @@ body {
   margin-bottom: 25px;
   box-shadow: 0px -1px 34px -13px rgba(0, 0, 0, 0.75);
 }
+
+// =======================
+
+
+// *{box-sizing:border-box}
+
+// body {
+//     font: .8em sans-serif;
+//     font-weight: 300;
+//     color: #ccc;
+//     background: #222;
+//     margin: 0;
+//     padding: 0;
+//     position: relative
+// }
+// footer {
+//     clear: both;
+//     margin: 12px 0;
+//     text-align: center;
+//     font-size: .8em
+// }
+
+// h1 {
+//     text-align: center;
+//     margin: 10px 0;
+//     font-weight: 300
+// }
+
+// h1 sup {
+//     font-size: .333em;
+//     opacity: 0.75;
+//     font-weight: bold;  
+// }
+
+// .transpose-wrapper {
+//     position: absolute;
+//     width: 40px;
+//     left: 50%;
+//     margin-left: -20px;
+//     padding: 5px;
+//     text-align: center;
+//     border-radius: 5px
+// }
+// .transpose-wrapper button {
+//     background: #2f9c8f;
+//     padding: 15px 0;
+// }
+
+// .transpose-wrapper:hover label {
+//     color: #fff
+// }
+
+
+// .transpose-wrapper #transpose {
+//     width: 100%;
+//     padding: 5px;
+//     color: #333;
+//     text-align: center;
+//     font-size: 1.25em;
+//     border: 1px solid #29887d
+// }
+
+// a {
+//     color: #2f9c8f
+// }
+
+// div.left {
+//     float: left;
+//     width: 48%;
+//     margin: 0 1%;
+//     overflow: hidden
+// }
+
+// div.right {
+//     float: left;
+//     width: 48%;
+//     margin: 0 1%
+// }
+
+// div.right label span {
+//     text-align: right
+// }
+
+// label span {
+//     display: block;
+//     padding: .5em 0;
+//     white-space: nowrap
+// }
+
+// textarea, #result, #transpose {
+//     border: 1px solid #aaa;
+//     padding: 16px 4%;
+//     color: #333;
+//     -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25) inset;
+//     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25) inset;
+//     -webkit-border-radius: 5px;
+//     -ms-border-radius: 5px;
+//     border-radius: 5px
+// }
+
+// textarea, #result {
+//     width: 100%;
+//     min-width: 100%;
+//     max-width: 100%;
+//     min-height: 500px;
+//     padding: 20px;
+//     -webkit-box-sizing: border-box;
+//     -moz-box-sizing: border-box;
+//     -ms-box-sizing: border-box;
+//     box-sizing: border-box;
+//     background: #eee;
+//     font: 1em "Source Code Pro", monospace
+// }
+
+// textarea {
+//     resize: none
+// }
+
+// #result {
+//     overflow: scroll;
+//     -webkit-hyphens: auto;
+//     -moz-hyphens: auto;
+//     -ms-hyphens: auto;
+//     hyphens: auto
+// }
+
+// #button-fullscreen {
+//     position: absolute;
+//     left: 50%;
+//     width: 30px;
+//     margin-left: -15px;
+//     top: 50%;
+//     height: 30px;
+//     font-size: 1.2em;
+//     margin-top: -15px;
+//     background: #eee;
+//     border: 1px solid #2f9c8f;
+//     color: #2f9c8f;
+//     cursor: pointer;
+//     border-radius: 5px
+// }
+
+// #button-fullscreen:after {
+//     content: '◀'
+// }
+
+// button.plus, button.minus {
+//     display: block;
+//     border: 1px solid white;
+//     text-align: center;
+//     color: white;
+//     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+//     cursor: pointer;
+//     font: bold 1em sans-serif;
+//     border-radius: 5px;
+//     width: 100%;
+//     padding: 5px 0;
+//     background: transparent
+// }
+
+// button.plus:hover, button.minus:hover {
+//     -webkit-box-shadow: 0 3px 7px rgba(255, 255, 255, 0.3) inset;
+//     box-shadow: 0 3px 7px rgba(255, 255, 255, 0.3) inset;
+// }
+
+// button.plus:active, button.minus:active {
+//     -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5) inset;
+//     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5) inset;
+// }
+
+// body.fullscreen div.left {
+//     width: 0;
+//     margin: 0
+// }
+
+// body.fullscreen div.right {
+//     width: 98%
+// }
+
+// body.fullscreen #button-fullscreen {
+//     left: 0;
+//     background: #2f9c8f;
+//     color: white
+// }
+
+// body.fullscreen #button-fullscreen:after {
+//     content: '▶'
+// }
+
+// body.fullscreen .transpose-wrapper {
+//     left: 1%;
+//     margin: -20px 0 0;
+//     width: 200px
+// }
+
+// body.fullscreen .transpose-wrapper label {
+//     float: left;
+//     line-height: 40px
+// }
+
+// body.fullscreen .transpose-wrapper button, body.fullscreen .transpose-wrapper #transpose {
+//     float: right;
+//     width: 40px;
+//     height: 40px
+// }
+
+// #result div.chord-line {
+//     color: #2f9c8f
+// }
