@@ -1,16 +1,21 @@
 @import "../../../styles.scss";
 
+body {
+  background-color: $off-white;
+}
+
 .list-row {
   background-image: url(../../../assets/img/bg.jpg);
   background-size: cover;
   // border-bottom-left-radius: 170px 35px;
   // border-bottom-right-radius: 170px 35px;
-  height: 50vh;
+  height: 35vh;
   // box-shadow: 2px 3px 31px -6px rgba(0, 0, 0, 0.75);
 }
 
 .content {
-  margin-top: 30px;
+  margin-top: -25px;
+  min-height: 70vh;
 }
 
 .list-title {
@@ -54,43 +59,74 @@
   border-radius: 10px;
   padding: 15px 30px;
   margin-bottom: 25px;
-  box-shadow: 0px -1px 34px -13px rgba(0,0,0,0.75);
+  box-shadow: 0px -1px 34px -13px rgba(0, 0, 0, 0.75);
 }
 
 // -----------------------
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#myInput {
+  // background-image: url("/css/searchicon.png");
+  // background-position: 10px 12px;
+  // background-repeat: no-repeat;
+  width: 80%;
+  font-size: 16px;
+  padding: 12px 20px 12px 30px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px -1px 34px -13px rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
+
+  &:focus{
+    outline: none;
   }
-  
-  #myInput {
-    background-image: url('/css/searchicon.png');
-    background-position: 10px 12px;
-    background-repeat: no-repeat;
-    width: 100%;
-    font-size: 16px;
-    padding: 12px 20px 12px 40px;
-    border: 1px solid #ddd;
-    margin-bottom: 12px;
-  }
-  
-  #myUL {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #myUL li a {
-    border: 1px solid #ddd;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#myUL {
+  width: 80%;
+  a {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: 0.3s;
+    // border: 1px solid #ddd;
+    // box-shadow: 0px -1px 34px -13px rgba(0, 0, 0, 0.75);
     margin-top: -1px; /* Prevent double borders */
-    background-color: #f6f6f6;
+    background-color: white;
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
     color: black;
-    display: block
+    display: block;
+    margin-bottom: 20px;
+
+    h3 {
+      font-family: $source_sans;
+      font-weight: 900;
+    }
+
+    p {
+      font-family: $source_sans;
+      font-weight: 200;
+      font-size: 16px;
+      margin-bottom: 0;
+    }
   }
-  
-  #myUL li a:hover:not(.header) {
-    background-color: #eee;
-  }
+}
+
+#myUL li a:hover:not(.header) {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
