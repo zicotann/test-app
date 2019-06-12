@@ -12,8 +12,8 @@ body{
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
-  left: 0;
-  background-color: $off-white;
+  right: 0;
+  background-color: rgb(242, 248, 248);
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 30px; /* Place content 60px from the top */
   transition: 0.4s;
@@ -56,6 +56,8 @@ body{
 
 .header-cont {
   padding: 40px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .close-container {
