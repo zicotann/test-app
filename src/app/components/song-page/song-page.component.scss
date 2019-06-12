@@ -1,0 +1,64 @@
+@import "../../../styles.scss";
+
+body {
+  background-color: $off-white;
+}
+
+.list-row {
+  background-image: url(../../../assets/img/bg.jpg);
+  background-size: cover;
+  border-bottom-left-radius: 300px 80px;
+  border-bottom-right-radius: 300px 80px;
+  height: 50vh;
+  box-shadow: 2px 3px 31px -6px rgba(0, 0, 0, 0.75);
+}
+
+.content-song-page {
+//   margin-top: -25px;
+  min-height: 70vh;
+}
+
+.song-title {
+  font-family: $source_sans;
+  font-weight: 700;
+  margin: 0 auto;
+}
+.page-description {
+  font-family: $source_sans;
+  font-weight: 200;
+  width: 60%;
+}
+
+.title-song {
+  display: flex;
+  flex-direction: column;
+  // align-self: center;
+  padding: 0 50px;
+  margin-top: 30px;
+}
+
+.cta-style {
+  width: 50%;
+  background-color: $teal;
+  font-family: $source_sans;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  box-shadow: -1px 0px 17px -8px rgba(0, 0, 0, 0.75);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.song-card {
+  width: 90%;
+  background-color: $off-white;
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin-bottom: 25px;
+  box-shadow: 0px -1px 34px -13px rgba(0, 0, 0, 0.75);
+}

@@ -6,24 +6,81 @@
   </div>
 
   <div class="row content">
-    <div class="col-12  justify-content-center">
+    <div class="col-12">
       <!-- <div class="song-card">
         <p>Song title</p>
         <p>Artist name</p>
       </div> -->
-      <input type="text" id="myInput" (keypress)='myFunction()' onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+      <div class="d-flex justify-content-center">
+        <input type="text" id="myInput" (keyup)='myFunction()' placeholder="Search..."
+          title="Type in a name">
+      </div>
 
-      <ul id="myUL">
-        <li><a href="#">Adele</a></li>
-        <li><a href="#">Agnes</a></li>
-
-        <li><a href="#">Billy</a></li>
-        <li><a href="#">Bob</a></li>
-
-        <li><a href="#">Calvin</a></li>
-        <li><a href="#">Christina</a></li>
-        <li><a href="#">Cindy</a></li>
-      </ul>
+      <div class="d-flex justify-content-center">
+        <ul id="myUL">
+          <li>
+            <a routerLink="/song-page">
+              <h4>Worthy Is The Lamb</h4>
+              <p>Hillsong</p>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/song-page">
+              <h4>What A Beautiful Name</h4>
+              <p>Hillsong</p>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/song-page">
+              <h4>Your Steadfast Love</h4>
+              <p>Don Moen</p>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/song-page">
+              <h4>Take Me Deeper</h4>
+              <p>Don Moen</p>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/song-page">
+              <h4>Worthy</h4>
+              <p>Elevation Worship</p>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/song-page">
+              <h4>What A Mighty God</h4>
+              <p>Elevation Worship</p>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/song-page">
+              <h4>10000 Reasons</h4>
+              <p>Matt Redman</p>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/song-page">
+              <h4>Gracefully Broken</h4>
+              <p>Matt Redman</p>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/song-page">
+              <h4>Fullness</h4>
+              <p>Elevation Worship</p>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/song-page">
+              <h4>Build My Life</h4>
+              <p>Housefires</p>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
     </div>
   </div>
 </div>
