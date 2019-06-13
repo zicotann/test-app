@@ -4,6 +4,24 @@ body {
   background-color: $off-white;
 }
 
+.video{
+  margin: 0 auto;
+}
+
+.song-author{
+  font-family: $source_sans;
+  font-weight: 200;
+  margin: 0 auto;
+}
+
+.video-cont{
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  margin-bottom: 20vh;
+  
+}
+
 .list-row {
   background-image: url(../../../assets/img/bg.jpg);
   background-size: cover;
@@ -35,6 +53,7 @@ body {
   // align-self: center;
   padding: 0 50px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .cta-style {
@@ -65,36 +84,3 @@ body {
 
 // =======================
 
-// span.c {
-//   font-weight: bold;
-//   color: #2159d6;
-// }
-
-// .transpose-keys {
-//   margin: 10px 0;
-//   overflow: auto;
-//   font: normal 11px sans-serif;
-// }
-// .transpose-keys a {
-//   display: block;
-//   float: left;
-//   width: 2.25em;
-//   text-align: center;
-//   margin: 0 0.25em 0.25em 0;
-//   color: #333;
-//   background: #eee;
-//   text-decoration: none;
-//   padding: 0.4em 0;
-//   border: solid 1px transparent;
-//   outline: none;
-// }
-// .transpose-keys a.selected {
-//   background: #2159d6;
-//   color: #fff;
-// }
-
-.transpose-keys{
-  a{
-    margin: 0 20px;
-  }
-}

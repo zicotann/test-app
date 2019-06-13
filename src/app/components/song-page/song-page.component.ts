@@ -13,9 +13,8 @@ export class SongPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    // $(function() {
-    //   $("pre").transpose();
-    // });
+
   }
+
 
 }
